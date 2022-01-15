@@ -9,7 +9,8 @@ public class Ex3_9 {
 //		long c = a * b;     // a * b = 2,000,000,000,000 ? 이 아니라 -1454759936이 결과로 나옴
 //		//오버플로우 발생 -> int의 범위는 10의 9제곱
 //		System.out.println(c);
-		long c = (long)a * b;
+		
+		long c = (long)a * b;  // long c = a * (long)b;
 		System.out.println(c);
 	}
 
