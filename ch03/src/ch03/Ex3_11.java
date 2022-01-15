@@ -6,7 +6,6 @@ public class Ex3_11 {
 		double pi = 3.141592;
 		double shortpi = Math.round(pi*1000)/1000.0;
 		System.out.println(shortpi);
-
 	}
 
 }
