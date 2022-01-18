@@ -16,7 +16,7 @@ public class Ex4_20 {
 			menu = Integer.parseInt(tmp);
 			
 			if(menu==0) {
-				System.out.println("프로그램을 종료합니다.");
+//				System.out.println("프로그램을 종료합니다.");
 				break;
 			} else if(!(1<=menu&&menu<=3)) {
 				System.out.println("메뉴를 잘못 선택하셨습니다.(종료는 0)");
@@ -31,7 +31,7 @@ public class Ex4_20 {
 					System.out.println("계산을 종료합니다.");
 					break;
 				} else if (num==99) {
-					System.out.println("프로그램을 종료합니다.");
+//					System.out.println("프로그램을 종료합니다.");
 					break outer;
 				}
 				switch(menu) {
@@ -46,7 +46,7 @@ public class Ex4_20 {
 					break;
 				}
 			}
-		}
+		} System.out.println("프로그램을 종료합니다.");
 	}
 
 }
