@@ -17,6 +17,7 @@ public class Ex5_1 {
 //		int value = score[3];
 //		System.out.println("value=" + value);
 		
+		
 		int[] arr = new int[10];
 		System.out.println("arr.length="+arr.length);
 		
